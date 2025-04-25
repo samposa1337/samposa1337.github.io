@@ -3,172 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>▲ SAMPOSA_1337 ▼</title>
+    <title>samposa_1337 | bio</title>
     <style>
-        :root {
-            --glow: #00ff00;
-            --bg: #0a0a0a;
-        }
-
         body {
-            background: var(--bg);
-            color: var(--glow);
             font-family: 'Courier New', monospace;
-            line-height: 1.4;
-            overflow-x: hidden;
+            background-color: #0a0a0a;
+            color: #fff;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
         }
 
         .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-            border: 1px solid var(--glow);
-            position: relative;
-            box-shadow: 0 0 30px rgba(0,255,0,0.1);
+            background-color: #111;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 50px;
         }
 
-        .scanline {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom,
-                transparent 50%,
-                rgba(0,255,0,0.05) 51%,
-                transparent 51%);
-            pointer-events: none;
-            z-index: 999;
+        h1 {
+            color: #e74c3c;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
         }
 
-        .header {
-            text-align: center;
-            margin-bottom: 2rem;
-            text-shadow: 0 0 10px var(--glow);
+        .section {
+            margin: 25px 0;
         }
 
-        .anime-avatar {
-            width: 150px;
-            height: 150px;
-            border: 2px solid var(--glow);
-            margin: 1rem auto;
-            background: url('https://neprivet.com/') center/cover;
+        .specs {
+            background-color: #1a1a1a;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
         }
 
-        .data-block {
-            margin: 1.5rem 0;
-            padding: 1rem;
-            border-left: 3px solid var(--glow);
-        }
-
-        .secret {
-            color: #00ff7777;
-            position: relative;
-        }
-
-        .secret:after {
-            content: "🚫";
-            margin-left: 0.5rem;
-            filter: drop-shadow(0 0 3px var(--glow));
-        }
-
-        .spec-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .tg-link {
-            color: var(--glow);
+        a {
+            color: #3498db;
             text-decoration: none;
-            border-bottom: 1px dashed var(--glow);
-            transition: 0.3s;
         }
 
-        .tg-link:hover {
-            text-shadow: 0 0 15px var(--glow);
+        a:hover {
+            text-decoration: underline;
         }
 
-        .readme {
-            border: 1px dashed var(--glow);
-            padding: 1rem;
-            margin: 2rem 0;
-            position: relative;
-        }
-
-        .readme::before {
-            content: "README.txt";
-            position: absolute;
-            top: -12px;
-            left: 20px;
-            background: var(--bg);
-            padding: 0 10px;
-            color: var(--glow);
-            font-size: 0.9em;
-        }
-
-        @keyframes glitch {
-            0% { transform: translate(0) }
-            20% { transform: translate(-2px, 2px) }
-            40% { transform: translate(-2px, -2px) }
-            60% { transform: translate(2px, 2px) }
-            80% { transform: translate(2px, -2px) }
-            100% { transform: translate(0) }
-        }
-
-        .glitch {
-            animation: glitch 1s infinite;
-            animation-timing-function: steps(2, end);
+        .hidden {
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="scanline"></div>
-    
     <div class="container">
-        <div class="header">
-            <div class="anime-avatar"></div>
-            <h1 class="glitch">▲ USER_PROFILE ▼</h1>
+        <h1>samposa_1337</h1>
+        
+        <div class="section">
+            <div class="hidden">Имя скрыто</div>
+            <div>Живу в России</div>
+            <div class="hidden">Возраст скрыт</div>
+            <div class="hidden">Номер скрыт</div>
         </div>
 
-        <div class="data-block">
-            > IDENTIFICATION:<br>
-            <span class="secret">[REDACTED]</span><br>
-            ░ Возраст: [18+] (24)<br>
-            ░ Контакт: [REDACTED]<br><br>
-            
-            > GEO_LOCATION:<br>
-            Россия [55.751244, 37.618423]<br><br>
-            
-            > DEVICE_REGISTRY:<br>
-            📱 Google Pixel 7 [ANDROID 16]<br>
-            🖥️ Win10 x64 | Ryzen 5 7500F<br>
-            🎮 RTX 4060 | 16GB Fury DDR5<br>
-            💾 500GB SSD<br><br>
-            
-            > ACTIVE_SESSIONS:<br>
-            🕹️ ULTRAKILL [127h] | GD [∞]<br>
+        <div class="section">
+            <h2>🎮 Игры</h2>
+            <div>ULTRAKILL</div>
+            <div>Garry's Mod</div>
         </div>
 
-        <div class="readme">
-            > ВАЖНАЯ ИНФОРМАЦИЯ:<br><br>
-            ░ Все скрытые данные защищены ГОСТ Р 34.11-2012<br>
-            ░ Специальный доступ: <a href="https://neprivet.com/" class="tg-link" target="_blank">Neprivet_Portal</a><br>
-            ░ Для верификации используйте Telegram-канал
-        </div>
-
-        <div class="spec-grid">
-            <div class="data-block">
-                > SOCIAL_ACCESS:<br>
-                <a href="https://t.me/samposaoffc" class="tg-link" target="_blank">Telegram_Channel</a>
+        <div class="section">
+            <h2>📱 Устройства</h2>
+            <div class="specs">
+                <div>Телефон: Google Pixel 7</div>
+                <div>Основной ПК:</div>
+                <ul>
+                    <li>Windows 10</li>
+                    <li>Ryzen 5 7500F</li>
+                    <li>RTX 4060</li>
+                    <li>2x8GB Fury RAM</li>
+                    <li>500GB SSD</li>
+                </ul>
             </div>
-            
-            <div class="data-block">
-                > SYSTEM_STATUS:<br>
-                CPU: 42°C [34%]<br>
-                GPU: 67°C [78%]<br>
-                RAM: 12.4/16GB<br>
-                UPTIME: 6d 14h
-            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔗 Контакты</h2>
+            <div>Telegram: @samposa_1337</div>
+            <div>TGK: <a href="https://t.me/samposaoffc" target="_blank">t.me/samposaoffc</a></div>
         </div>
     </div>
 </body>
